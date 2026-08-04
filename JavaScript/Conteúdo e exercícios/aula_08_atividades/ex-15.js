@@ -10,18 +10,24 @@ let titulos = filmes.map(function(item){
     return item.titulo
 })
 
+console.log(titulos)
+
 let generos = filmes.filter(function(item){
     return item.genero === "Ficção"
 })
+
+console.log(generos)
 
 let ano = filmes.find(function(item){
     return item.ano === 1997
 })
 
+console.log(ano)
+
 let combo = filmes.filter(function(item){
-    return item.titulo 
-}).map(function(item){
     return item.ano >= 2000
+}).map(function(item){
+    return item.titulo 
 })
 
 console.log(combo)
