@@ -11,4 +11,4 @@ console.log(calcArea(2, 3))
 console.log(calcArea(2, 3)) */ 
 
 
-//  const calcArea = (b, h) = => b * h <- Não usar.
+//  const calcArea = (b, h) = => b * h   <- Não usar.
